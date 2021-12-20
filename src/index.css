@@ -169,7 +169,15 @@ html {
 }
 
 footer {
-  background-color: rgba(0, 17, 13, .8);
+  color: #fff;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: lighter;
+  letter-spacing: 0.15rem;
+  background: rgba(0, 17, 13, .6);
+  width: 100%;
+  display: flex;
+  justify-content:center;
+  align-items:center;
 }
 
 .senpai {
