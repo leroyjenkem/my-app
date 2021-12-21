@@ -1,5 +1,4 @@
 import React from "react";
-import '../index.css';
 
 function AboutUs () {
   return (
@@ -22,11 +21,9 @@ function AboutUs () {
 
     <div className="eight section">
 
-    <img src="/images/valuess.png" />
+    <img src="/images/valuess.png"/>
 
     </div>
-  </>
+
   )
 }
-
-export default AboutUs;
