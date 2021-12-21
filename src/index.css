@@ -7,10 +7,17 @@ body,
 html {
   margin: 0;
   padding: 0;
+  width: 100%;
+}
+
+img{
+  max-width: 300px !important;
+  max-height: 300px !important 
 }
 
 .section {
   padding: 200px 50px 50px 50px;
+  overflow: hidden;
 }
 
 .section h3 {
@@ -48,7 +55,8 @@ html {
   filter: drop-shadow(.5rem .5rem .5rem rgba(0, 0, 0, 1));
   font-size: 20px;
   margin-top: 1.75rem;
-  margin-right: -4.5rem;
+
+
 }
 
 .fourth p {
@@ -60,7 +68,6 @@ html {
   filter: drop-shadow(.5rem .5rem .5rem rgba(0, 0, 0, 1));
   font-size: 20px;
   margin-top: 1.75rem;
-  margin-left: -6rem;
   margin-right: .05rem;
 }
 
@@ -73,7 +80,6 @@ html {
   filter: drop-shadow(.5rem .5rem .5rem rgba(0, 0, 0, 1));
   font-size: 20px;
   margin-top: 1.75rem;
-  margin-right: -5rem;
 }
 
 br {
@@ -133,6 +139,14 @@ br:active {
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
+}
+
+.app-container {
+
+  background-image: url(images/bg1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .app:not {}

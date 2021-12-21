@@ -2,7 +2,9 @@ import React from "react";
 import {PicApp} from "../App.js";
 import '../index.css';
 
-function WhatIsSkyhoga () {
+const WhatIsSkyhoga =  () =>  {
+
+  console.log('asdasd');
   return (
     <>
     <a id="#section1">
@@ -30,4 +32,4 @@ function WhatIsSkyhoga () {
   )
 }
 
-export {WhatIsSkyhoga};
+export default WhatIsSkyhoga

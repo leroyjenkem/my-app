@@ -6,7 +6,7 @@ import {
   NavLink
 } from "react-router-dom";
 
-import {WhatIsSkyhoga} from './WhatIsSkyhoga'
+import WhatIsSkyhoga from './WhatIsSkyhoga'
 import OurMission from './OurMission'
 import ShowYourSupport from './ShowYourSupport'
 import AboutUs from './AboutUs'

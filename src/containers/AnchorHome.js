@@ -2,9 +2,18 @@ import React from "react";
 import {PicApp} from "../App.js";
 import SingleSource from "../App.js";
 
-function Home () {
+function AnchorHome () {
   return (
     <>
+    <div className="navbar">
+      <div className="show">>
+      <a className="show" href="#home">Home</a>
+      <a className="show" href="#first">What is SKYHØGA?</a>
+      <a className="show" href="#second">Our mission</a>
+      <a className="show" href="#third">Show your support</a>
+      <a className="show" href="#fourth">About us</a>
+      </div>
+    </div>
     <a id="home">
       <div className="logo-container">
         <img src="images/logo.png" />
@@ -112,4 +121,4 @@ function Home () {
   );
   }
 
-export default Home;
+export default AnchorHome;
