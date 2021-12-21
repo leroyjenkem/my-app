@@ -71,7 +71,6 @@ export default function App() {
           </nav>}
           <Routes >
             {isMobile ? <>
-              <Route path='/welcome' element={<OurMission />} />
               <Route path='/' element={<WhatIsSkyhoga />} />
               <Route path='/home' element={<WhatIsSkyhoga />} />
               <Route path='/show-support' element={<ShowYourSupport />} />
